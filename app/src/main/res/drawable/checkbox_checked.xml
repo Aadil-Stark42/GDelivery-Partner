@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- drawable/circle_card_icon.xml -->
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <corners android:radius="2dp" />
+
+            <stroke
+                android:width="2dp"
+                android:color="@color/main_color" />
+
+            <size
+                android:width="18dp"
+                android:height="18dp"/>
+
+        </shape>
+    </item>
+    <item android:drawable="@drawable/vector_tick_mark" />
+</layer-list>
+
+

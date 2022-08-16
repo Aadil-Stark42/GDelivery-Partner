@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/order_item_border">
+    <TextView
+        android:id="@+id/tv_refereal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Order Referal"
+        android:textColor="#7F8AA5"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/tv_referalnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_refereal"
+        android:textColor="#2D2D2D"
+        android:textSize="16sp"
+        android:fontFamily="@font/seoge"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"/>
+
+
+    <View
+        android:id="@+id/viewone"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_referalnum"
+        android:background="#B7CCC9"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_orderitems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewone"
+        android:text="Order Items"
+        android:textColor="#7F8AA5"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:background="@drawable/login_view_bg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_orderitems" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

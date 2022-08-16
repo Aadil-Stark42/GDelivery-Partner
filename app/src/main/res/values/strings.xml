@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GDelivery Partner</string>
+
+    <string name="welocome_partner">Welcome Partner</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="user_id">Email ID</string>
+    <string name="enteryouruserid">Enter your Email ID</string>
+    <string name="password">Password</string>
+    <string name="enteryourpassword">Enter your Password</string>
+    <string name="Login">Log in</string>
+    <string name="search">Search</string>
+    <string name="neworder">New Orders</string>
+    <string name="paymentmethod">Payment Method :</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAiKnXBpDxrTVXsvpEoYZE4sC7UA39QYLM
+    </string>
+    <string name="name">Freddy\'s Stove</string>
+    <string name="dateandtime">Date &amp; Time</string>
+    <string name="view_details"><u>View Details</u></string>
+
+</resources>

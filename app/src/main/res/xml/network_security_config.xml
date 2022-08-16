@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">162.241.123.24:80</domain>
+        <domain includeSubdomains="true">13.234.225.255</domain>
+        <domain includeSubdomains="true">github.com</domain>
+        <domain includeSubdomains="true">vmart.deliverymnx.net</domain>
+        <domain includeSubdomains="true">staging.vdeliverz.in</domain>
+        <domain includeSubdomains="true">adminpanel.vdeliverz.in</domain>
+        <domain includeSubdomains="true">suvai.deliverymnx.net</domain>
+        <domain includeSubdomains="true">dev.gdigitaldelivery.com</domain>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="false"/>
+</network-security-config>

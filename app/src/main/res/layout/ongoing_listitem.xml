@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/order_item_border"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_shopname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text=""
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textColor="@color/black"
+            android:textSize="16sp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv_orderid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_shopname"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="Order id :"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textColor="@color/black"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textColor="@color/main_color"
+            android:textSize="14sp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv_customer_name_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_orderid"
+            android:text="Name : "
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/seoge"
+            android:layout_marginTop="10dp"
+            android:textColor="#969EB4"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/tv_customer_name_title"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_customer_name_title"
+            app:layout_constraintLeft_toRightOf="@+id/tv_customer_name_title"
+            android:text=""
+            android:singleLine="true"
+            android:layout_marginStart="3dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textColor="@color/black"
+            android:textSize="14sp">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/tv_itemcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_customer_name_title"
+            android:text="3 items"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:fontFamily="@font/seoge"
+            android:textColor="#969EB4"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_view_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/iv_call_shop"
+            android:text="@string/view_details"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:fontFamily="@font/seoge"
+            android:textStyle="italic"
+            android:textColor="#172A5E"
+            android:textSize="12sp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv_paymentmethod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_itemcount"
+            android:text="@string/paymentmethod"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/seoge"
+            android:layout_marginTop="10dp"
+            android:textColor="#969EB4"
+            android:textSize="14sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/iv_call_shop"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_call"
+            app:layout_constraintTop_toTopOf="@+id/tv_paymentmethod"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_paymentmethod"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/tv_pay_method"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/tv_paymentmethod"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_paymentmethod"
+            app:layout_constraintLeft_toRightOf="@+id/tv_paymentmethod"
+            android:text=""
+            android:layout_marginStart="3dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textColor="@color/black"
+            android:textSize="14sp">
+        </TextView>
+
+
+        <View
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pay_method"
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:id="@+id/iv_line"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#D2D2D2">
+        </View>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cons_detail"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <CheckBox
+                    android:id="@+id/checkbox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:button="@drawable/checkbox_selector"
+                    app:layout_constraintTop_toTopOf="@+id/tv_pickup"
+                    app:layout_constraintStart_toStartOf="parent">
+                </CheckBox>
+
+                <View
+                    app:layout_constraintTop_toBottomOf="@+id/checkbox1"
+                    app:layout_constraintBottom_toTopOf="@+id/checkbox2"
+                    android:layout_width="1dp"
+                    app:layout_constraintStart_toStartOf="@+id/checkbox1"
+                    app:layout_constraintEnd_toEndOf="@id/checkbox1"
+                    android:layout_height="0dp"
+                    android:background="#D3D1D1">
+                </View>
+
+
+                <CheckBox
+                    android:id="@+id/checkbox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="15dp"
+                    android:button="@drawable/checkbox_selector"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/cons_dropoff">
+                </CheckBox>
+
+                <TextView
+                    app:layout_constraintStart_toEndOf="@+id/checkbox1"
+                    android:id="@+id/tv_pickup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Pick up adderess"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:fontFamily="@font/seoge"
+                    android:textColor="#969EB4"
+                    android:textSize="14sp">
+                </TextView>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cons_pickedup"
+                    app:layout_constraintStart_toEndOf="@id/checkbox1"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_pickup"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                    <ImageView
+                        android:id="@+id/iv_loc_pickedup"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="5dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:src="@drawable/ic_location_filled">
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/pick_address"
+                        android:layout_width="0dp"
+                        app:layout_constraintWidth_percent="0.8"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0F1D41"
+                        android:fontFamily="@font/seoge"
+                        android:text=""
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/iv_loc_pickedup">
+                    </TextView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/tv_dropoff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/cons_pickedup"
+                    app:layout_constraintTop_toBottomOf="@+id/cons_pickedup"
+                    android:text="Drop off adderess"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:fontFamily="@font/seoge"
+                    android:textColor="#969EB4"
+                    android:textSize="14sp">
+                </TextView>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cons_dropoff"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/cons_pickedup"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_dropoff">
+
+                    <ImageView
+                        android:id="@+id/iv_loc_dropoff"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:paddingTop="5dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:src="@drawable/ic_location_filled">
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/drop_address"
+                        android:layout_width="0dp"
+                        app:layout_constraintWidth_percent="0.8"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0F1D41"
+                        android:fontFamily="@font/seoge"
+                        android:text=""
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/iv_loc_dropoff">
+                    </TextView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cons_detail"
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:id="@+id/iv_line_two"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#D2D2D2">
+        </View>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line_two"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/tv_expected_deliverytime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="#969EB4"
+                android:textSize="14sp"
+                android:fontFamily="@font/seoge"
+                android:text="Expected Delivery Time">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_expected_deliverytime_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_expected_deliverytime"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_expected_deliverydate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="#969EB4"
+                android:textSize="14sp"
+                android:fontFamily="@font/seoge"
+                android:text="Expected Delivery Date">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_expected_deliverydate_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/tv_expected_deliverydate"
+                app:layout_constraintStart_toStartOf="@+id/tv_expected_deliverydate"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="">
+            </TextView>
+
+            <View
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_width="0.3dp"
+                android:layout_height="45dp"
+                android:background="#D2D2D2">
+            </View>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cons_time"
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/iv_line_three"
+            android:layout_marginTop="15dp"
+            android:background="#D2D2D2">
+        </View>
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_pickedup"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line_three"
+            app:layout_constraintWidth_percent="0.45"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:text="Cancel in 10s"
+            android:fontFamily="@font/seoge"
+            android:textSize="14sp"
+            android:background="@drawable/cancel_red_bg">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv_pickedup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintWidth_percent="0.45"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:text="Item Picked up"
+            android:textStyle="bold"
+            android:fontFamily="@font/seoge"
+            android:textSize="16sp"
+            android:background="@drawable/login_border"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line_three"
+            android:layout_marginBottom="30dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_delivered"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintWidth_percent="0.45"
+            android:padding="15dp"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:text="Delivered"
+            android:fontFamily="@font/seoge"
+            android:textSize="14sp"
+            android:background="@drawable/login_border"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_line_three"
+            android:layout_marginBottom="30dp">
+        </TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

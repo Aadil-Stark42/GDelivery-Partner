@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bottomsheet_border">
+
+    <TextView
+        android:id="@+id/tv_orderid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Order id : 5GHF52"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:textColor="@color/white"
+        android:textSize="14sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="12 "
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:textColor="@color/main_color"
+        android:textSize="14sp">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tv_itemcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_orderid"
+        android:text="3 items"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/seoge"
+        android:textColor="#969EB4"
+        android:textSize="14sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_paymentmethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemcount"
+        android:text="@string/paymentmethod"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/seoge"
+        android:paddingTop="10dp"
+        android:textColor="#969EB4"
+        android:textSize="14sp">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tv_cod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemcount"
+        app:layout_constraintLeft_toRightOf="@+id/tv_paymentmethod"
+        android:text=" COD"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:textColor="@color/white"
+        android:textSize="14sp">
+    </TextView>
+
+
+    <View
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cod"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:id="@+id/iv_line"
+        android:layout_marginTop="15dp"
+        android:background="#D2D2D2">
+    </View>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/cons_pickedup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_line">
+
+        <ImageView
+            android:id="@+id/iv_loc_pickedup"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_location_filled">
+        </ImageView>
+
+        <TextView
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.6"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Gurunanak Khalsa College, Kingle Circle, Sion"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/iv_loc_pickedup">
+        </TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cons_pickedup"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:id="@+id/iv_line_two"
+        android:layout_marginTop="15dp"
+        android:background="#D2D2D2">
+    </View>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cons_contactvendor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/background_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_line_two">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/ic_contact">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_contactvendor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Vendor"
+            android:textSize="14sp"
+            android:padding="16dp"
+            android:fontFamily="@font/seoge"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textColor="@color/main_color"></TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/login_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cons_contactvendor">
+        <TextView
+            android:id="@+id/tv_pickedup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item picked up"
+            android:textSize="16sp"
+            android:padding="15dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textColor="@color/white">
+
+        </TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

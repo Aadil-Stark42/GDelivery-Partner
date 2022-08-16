@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vdeliverz_delivery">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <application
+        android:name=".utils.Application"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:label">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name="com.vdeliverz_delivery.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.vdeliverz_delivery.login.LoginActivity"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.home.HomeScreenActivity"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.MapsActivity"></activity>
+        <activity android:name="com.vdeliverz_delivery.MapsDelivered"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.cash_collected.CashCollectedActivity"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.delivery_details.DeliveryDetailsActivity"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.profile.ProfileEditActivity"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.profile.ProfileFAQ"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.profile.ProfileAboutFAQ"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.profile.PrivacyPolicy"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.profile.TermsAndCondition"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.notification.NotificationActivity"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.ProductDeliveredActivity"></activity>
+
+        <activity android:name="com.vdeliverz_delivery.delivered.DeliveredActivity"></activity>
+        <activity android:name="com.vdeliverz_delivery.profile.ProfileActivity"></activity>
+
+        <service
+            android:name="com.vdeliverz_delivery.push_notification.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

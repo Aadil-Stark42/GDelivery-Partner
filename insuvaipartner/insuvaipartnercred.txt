@@ -1,0 +1,2 @@
+alias:-insuvaipartner
+pass:-insuvaipartner

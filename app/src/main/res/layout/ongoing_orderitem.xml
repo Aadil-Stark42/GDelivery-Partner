@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginBottom="15dp"
+    android:id="@+id/con_item"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/border_layout">
+
+    <TextView
+        android:id="@+id/tv_orderid_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Order Id"
+        android:fontFamily="@font/seoge"
+        android:textColor="#969EB4"
+        android:textSize="14sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_orderid_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_orderid_label"
+        android:text="05845465546"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/seoge"
+        android:textColor="#0F1D41"
+        android:textSize="14sp">
+    </TextView>
+
+    <View
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_orderid_label"
+        app:layout_constraintRight_toRightOf="@+id/tv_dateandtime_label"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="0.5dp"
+        android:layout_height="25dp"
+        android:id="@+id/iv_line"
+        android:background="#D3D3D3">
+    </View>
+
+    <TextView
+        android:id="@+id/tv_dateandtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_orderid_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="12:00 AM 23-Dec-2020"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/seoge"
+        android:textColor="#0F1D41"
+        android:textSize="14sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_dateandtime_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/tv_dateandtime"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/dateandtime"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/seoge"
+        android:textColor="#969EB4"
+        android:textSize="14sp">
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MindNotix/MindNotixProject/GDigitalDelivery/GDelivery_DeliveryPartner/app/src/main/res/drawable/accept_bg.xml" value="0.1425" />
+        <entry key="..\:/MindNotix/MindNotixProject/GDigitalDelivery/GDelivery_DeliveryPartner/app/src/main/res/drawable/login_border.xml" value="0.1425" />
+        <entry key="..\:/MindNotix/MindNotixProject/GDigitalDelivery/GDelivery_DeliveryPartner/app/src/main/res/drawable/login_white_bg.xml" value="0.1425" />
+        <entry key="..\:/MindNotix/MindNotixProject/GDigitalDelivery/GDelivery_DeliveryPartner/app/src/main/res/drawable/postborder.xml" value="0.1425" />
+        <entry key="..\:/MindNotix/MindNotixProject/GDigitalDelivery/GDelivery_DeliveryPartner/app/src/main/res/layout/acivity_ongoing.xml" value="0.15489130434782608" />
+        <entry key="..\:/MindNotix/MindNotixProject/GDigitalDelivery/GDelivery_DeliveryPartner/app/src/main/res/layout/activity_delivered.xml" value="0.15489130434782608" />
+        <entry key="..\:/MindNotix/MindNotixProject/GDigitalDelivery/GDelivery_DeliveryPartner/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/MindNotix/MindNotixProject/GDigitalDelivery/GDelivery_DeliveryPartner/app/src/main/res/layout/activity_profile_terms_and_condition.xml" value="0.1" />
+        <entry key="..\:/MindNotix/MindNotixProject/GDigitalDelivery/GDelivery_DeliveryPartner/app/src/main/res/layout/activity_splash.xml" value="0.15489130434782608" />
+        <entry key="..\:/MindNotix/MindNotixProject/GDigitalDelivery/GDelivery_DeliveryPartner/app/src/main/res/layout/base_activity.xml" value="0.1082427536231884" />
+        <entry key="..\:/MindNotix/MindNotixProject/GDigitalDelivery/GDelivery_DeliveryPartner/app/src/main/res/layout/dialog_progress.xml" value="0.15489130434782608" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/accept_bg.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/background_border.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/badge_background.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/border.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/border_layout.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/bottom_navigation_colors.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/bottomsheet_border.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/button_border.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/cancel_after_bg.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/cancel_red_bg.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/cash_collect.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/cash_collect_bg.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/checkbox_checked.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/checkbox_selector.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/checkbox_unchecked.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_arrow_white_final.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_back.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_call.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_check_tick.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_contact.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_delivered.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_delivered_active.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_direction.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_earned_banner.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_eye.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_eye_closed.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_finalback.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_green_arrow.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_hart.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_location.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_location_filled.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_map_bk.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_map_centre.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_ongoing.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_ongoing_active.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_orders_active.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_profile.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_search.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_start.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_stop.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/ic_veg.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/layout_border.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/login_border.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/login_view_bg.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/non_veg.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/order_item_border.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/postborder.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/reject_backgroundcolor.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/reject_red.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/roundhape.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/search_border.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/top_round_shape.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/vector_tick_mark.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/veg.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/drawable/view_border.xml" value="0.2203125" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/acivity_ongoing.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_delivered.xml" value="0.25" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_delivered_list.xml" value="0.1308876811594203" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_delivered_new.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_deliverydetail_new.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_login.xml" value="0.14" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_maps.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_maps_delivered.xml" value="0.1308876811594203" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_new_orders.xml" value="0.1308876811594203" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_notification.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_privacy_policy.xml" value="0.14" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_profile.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_profile_about_faq.xml" value="0.1308876811594203" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_profile_aboutfaq.xml" value="0.1308876811594203" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_profile_terms_and_condition.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/activity_splash.xml" value="0.12" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/base_activity.xml" value="0.1308876811594203" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/bottom_navigation.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/bottomsheet_item_delivered.xml" value="0.25" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/bottomsheet_item_pickedup.xml" value="0.2" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/cash_collected.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/cash_collected_earned.xml" value="0.1308876811594203" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/delivery_detail_list.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/dialog_progress.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/faq_list_item.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/final_delivered_frag.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/notification_list_item.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/ongoing_listitem.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/ongoing_orderitem.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/order_detail_popup.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/order_list_item.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/orders_items_list.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/profile_edit.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/toolbar.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/top_search.xml" value="0.12771739130434784" />
+        <entry key="..\:/MindNotix/MindNotixProject/InsuvaiDeliveryPartner/app/src/main/res/layout/toppinglistitems.xml" value="0.12771739130434784" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
